@@ -21,7 +21,7 @@ class _CounterScreenState extends State<CounterScreen> {
             Text('$clickCounter', style: TextStyle(
               fontSize: 160, 
               fontWeight: FontWeight.w100)),
-            Text('${clickCounter > 1 ? 'Clicks' : 'Click'}', style: TextStyle(
+            Text(clickCounter > 1 ? 'Clicks' : 'Click', style: TextStyle(
               fontSize: 25))
           ]
         ),

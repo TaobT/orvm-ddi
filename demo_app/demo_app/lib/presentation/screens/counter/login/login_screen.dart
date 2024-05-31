@@ -26,7 +26,7 @@ class _LoginScreenState extends State<LoginScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(height: 200),
+            SizedBox(height: 100),
             Text("Username", style: TextStyle(fontSize: 20),),
             TextFormField(
               decoration: const InputDecoration(
